@@ -1,6 +1,6 @@
 body {
       font-family: Georgia, 'Times New Roman', Times, serif;
-     background: linear-gradient(to bottom, #0a0888, #4689c0, rgb(233, 118, 11) ,#dbb50d);
+     background: linear-gradient(to bottom, #04033f, #051499, #7e10be ,#ec6d3b, orange);
       color: white;
       text-align: center;
       padding: 13rem;
@@ -14,7 +14,7 @@ body {
       font-size: 1rem;
     }
     button {
-      background-color: #7a00cc;
+      background-color: #0a9421;
       color: white;
       cursor: pointer;
     }
@@ -82,7 +82,7 @@ body {
   #cloud1 {
   position: absolute;
   top: 5px;
-  animation: cloudAnimation 20s linear infinite;
+  animation: cloudAnimation 15s linear infinite;
   }
 
   @keyframes cloudAnimation {
@@ -102,6 +102,6 @@ body {
    #cloud3 {
   position: absolute;
   top: 150px;
-  animation: cloudAnimation 22s linear infinite;
+  animation: cloudAnimation 20s linear infinite;
   }
 
