@@ -1,9 +1,10 @@
 body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #3c1361, #5e1a86, #2f0035);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     background: linear-gradient(to bottom, #0a0888, #4689c0, rgb(233, 118, 11) ,#dbb50d);
       color: white;
       text-align: center;
-      padding: 2rem;
+      padding: 13rem;
+      
     }
     input, select, button {
       padding: 0.5rem;
@@ -26,4 +27,81 @@ body {
       width: 850px;
       justify-items: center;
       justify-self: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
+
+    #heroi {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  height: 110px;
+  animation: correr 7s linear infinite;
+  z-index: 1;
+}
+
+@keyframes correr {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 100%;
+
+  }
+}
+
+#grama {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 64px; /* altura do GIF */
+  background-image: url('src/grass.gif');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  z-index: 0;
+}
+
+#star {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  z-index: 2;
+  animation: starAnimation 9s linear infinite;
+}
+
+@keyframes starAnimation {
+    0% {
+    right: -10px;
+  }
+  100% {
+    right: 100%;
+
+  }
+  }
+
+  #cloud1 {
+  position: absolute;
+  top: 5px;
+  animation: cloudAnimation 20s linear infinite;
+  }
+
+  @keyframes cloudAnimation {
+    0% {
+    right: -10px;
+  }
+  100% {
+    right: 100%;
+
+  }
+  }
+   #cloud2 {
+  position: absolute;
+  top: 100px;
+  animation: cloudAnimation 25s linear infinite;
+  }
+   #cloud3 {
+  position: absolute;
+  top: 150px;
+  animation: cloudAnimation 22s linear infinite;
+  }
+
