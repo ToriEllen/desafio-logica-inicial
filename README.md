@@ -59,4 +59,4 @@ A classificação segue os critérios abaixo:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SeuUsuario/classificador-de-heroi.git
+git clone https://github.com/ToriEllen/desafio-logica-inicial.git
